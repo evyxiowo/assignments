@@ -4,7 +4,15 @@
 */
 
 function isPalindrome(str) {
-  return true;
+  const lowerCaseStr = str.toLowerCase();
+
+  const reversedStr = lowerCaseStr.split("").reverse().join("");
+
+  return lowerCaseStr === reversedStr;
 }
 
 module.exports = isPalindrome;
+
+// usage
+console.log(isPalindrome("redivider")); // true  safjkahfajks
+console.log(isPalindrome("harkirat")); //false

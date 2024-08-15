@@ -1,0 +1,235 @@
+/* General styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header styles */
+.header {
+  background-color: #0a0a0a;
+  color: #9c9797;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 20px;
+  margin-right: 1%;
+}
+
+.title-vsc {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 3;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  padding-right: 10%;
+  padding-top: 0;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  color: #808080;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Search box styles */
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 0;
+}
+
+.search-box {
+  width: 200px;
+  height: 5px;
+  padding: 10px;
+  padding-left: 30px; /* Space for the icon */
+  border-radius: 5px;
+  border: 1px solid #333333;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-box::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.search-box:focus {
+  border-color: #005a9e;
+}
+
+.search-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+}
+
+/* Button styles */
+.download-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: right;
+}
+
+.download-button,
+.main-download-button {
+  background-color: #005a9e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-right: 45%;
+}
+
+.download-button:hover,
+.main-download-button:hover {
+  background-color: #004a86;
+}
+
+/* Version notice styles */
+.version-notice {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #0a0a0a;
+  color: #a5a5a5;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Content wrapper styles */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #0a0a0a;
+  color: aliceblue;
+}
+
+.main-content h1 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.platform-links {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+a {
+  color: #0078da;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0059a1;
+}
+
+.subtext {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #a1a1a1;
+}
+
+.wrap-together {
+  white-space: nowrap;
+}
+
+/* Sidebar styles */
+.sidebar {
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-icon {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Box container styles */
+.box {
+  padding: 7px;
+  border: 1px solid #444444;
+  border-radius: 14px;
+  background-color: #161616;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styled h6 styles */
+.styled-h6 {
+  color: rgb(182, 182, 182);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Heading styles */
+.heading-1 {
+  font-size: 28px;
+}
+
+.theme-mode {
+  padding-right: 10px;
+}

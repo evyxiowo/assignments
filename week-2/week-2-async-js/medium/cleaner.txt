@@ -1,0 +1,3 @@
+Hi     my    name is       xievy and    this is     my       cleaner      text     =!!!  
+
+RUN `file-cleaner.js` to see the results
